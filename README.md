@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import broadcastScalarLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-broadcast-scalar-like@deno/mod.js';
+import broadcastScalarLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-broadcast-scalar-like@v0.1.1-deno/mod.js';
 ```
 
 #### broadcastScalarLike( x, value )
@@ -102,7 +102,7 @@ var dt = String( getDType( y ) );
 ```javascript
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@deno/mod.js';
 import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-empty@deno/mod.js';
-import broadcastScalarLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-broadcast-scalar-like@deno/mod.js';
+import broadcastScalarLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-broadcast-scalar-like@v0.1.1-deno/mod.js';
 
 // Get a list of data types:
 var dt = dtypes( 'integer_and_generic' );
